@@ -19,23 +19,20 @@
 }
 .f-info-links a:hover {
     text-decoration: underline;
-    color: #222222;
+ 
 }
 
 .f-info-links,
 .f-info-socials,
 .f-info-brand {
     width:100%;
-    font-size: 1.2 rem;
-    margin-right: 1rem;
-    vertical-align: middle;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .f-info-socials i {
-    margin-right: 1rem;
-      font-size: 1.2 rem;
+    margin-right: 1.2rem;
+      font-size: 1rem;
 }
 .f-info {
     text-align: center;
@@ -44,4 +41,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: space-evenly;
 }
