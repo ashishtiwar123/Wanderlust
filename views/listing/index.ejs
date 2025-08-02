@@ -4,7 +4,7 @@
   <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1">
             <% for (let listing of allListing) { %>
   <div class="card" style="width: 30rem;">
-    <img src="<%= listing.image?.url || 'https://source.unsplash.com/300x200/?house,home,villa' %>" 
+    <img src="<%= listing.image %>" 
          class="card-img-top" 
          alt="listing_image">
     <div class="card-body">
